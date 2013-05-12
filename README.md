@@ -1,5 +1,5 @@
-WebJar for [Library]
+WebJar for toastr
 
 More info: http://webjars.org
 
-Upstream: [Library URL]
+Upstream: https://github.com/CodeSeven/toastr
