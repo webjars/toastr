@@ -52,16 +52,16 @@
         <upstream.version>2.0.1</upstream.version>
         <upstream.url>https://github.com/CodeSeven/toastr/archive</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
-		<requirejs>
-		            {
-		                "paths": {
-		                    "toastr": "toastr"
-		                },
-		                "shim": {
-		                    "toastr": { "exports": "toastr" }
-		                }
-		            }
-		        </requirejs>
+        <requirejs>
+            {
+                "paths": {
+                    "toastr": "toastr"
+                },
+                "shim": {
+                    "toastr": { "exports": "toastr" }
+                }
+            }
+        </requirejs>
     </properties>
 
     <build>
